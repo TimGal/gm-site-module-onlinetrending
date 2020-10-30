@@ -1,0 +1,31 @@
+html {
+	font-family: "Roboto" !important;
+}
+
+.om-item {
+	border: 1px solid #b3b3b3;
+	min-height: 50px !important;
+	padding-top: 30px !important;
+	padding-bottom: 20px !important;
+	border-right: 0px !important;
+}
+
+.om-img {
+	width: 80px;
+	margin-top: 4px;
+}
+
+.om-text {
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.om-item:last-child {
+	border-right: 1px solid #b3b3b3 !important;
+}
+
+@media (max-width: 768px) {
+	.om-img {
+		width: 60px !important;
+	}
+}
